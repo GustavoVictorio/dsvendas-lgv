@@ -1,11 +1,8 @@
-import Footer from "components/Footer"
-import NavBar from "components/Navbar"
 import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
         <>
-            
             <div className="container">
                 <div className="jumbotron">
                     <h1 className="display-4">DSVendas</h1>
@@ -17,7 +14,6 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-           
         </>
     )
 }
