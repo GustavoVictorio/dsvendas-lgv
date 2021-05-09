@@ -7,7 +7,6 @@ import NavBar from "components/Navbar";
 const Dashboard = () => {
     return (
         <>
-            <NavBar />
             <div className="container">
                 <h1 className="text-primary py-3">Dashboard de Vendas</h1>
 
@@ -28,7 +27,6 @@ const Dashboard = () => {
                 </div>
                 <DataTable />
             </div>
-            <Footer />
         </>
     )
 }
